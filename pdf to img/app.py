@@ -32,7 +32,7 @@ def process_pdf_directory(input_folder, output_folder):
             pdf_to_images(pdf_path, output_folder)
 
 
-input_folder = "input"
-output_folder = "output" 
+input_folder = "<INPUT FOLDER PATH>"
+output_folder = "<OUTPUT FOLDER PATH>" 
 
 process_pdf_directory(input_folder, output_folder)
