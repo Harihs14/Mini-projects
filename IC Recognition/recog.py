@@ -1,7 +1,7 @@
 import cv2
 import pytesseract
 
-image = cv2.imread('op2.jpg')
+image = cv2.imread('<INPUT IMAGE PATH>')
 
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 gray = cv2.GaussianBlur(gray, (5, 5), 0)
